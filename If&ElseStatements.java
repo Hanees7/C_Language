@@ -2,6 +2,7 @@ if and else can be used together to create conditions.
 It returns 1 if the condition is true and 0 if the condition is false.
 There are multiple operators which can be used in conditional statements.
 
+	
 Equal to '=='
 Not Equal '!='
 Greater than '>'
