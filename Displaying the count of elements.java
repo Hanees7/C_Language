@@ -4,7 +4,7 @@ String[] chocolate = {"Ferrero Rocher", "Alpenliebe", "Cadbury"};
 System.out.println(chocolate.length);
 
 Output:
-3
+3 
 Task
 Write a program which does the following
 
