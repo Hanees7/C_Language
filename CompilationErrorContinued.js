@@ -6,7 +6,7 @@ For example, if you run the below code, you will get a syntax error.
 
 var name = "Bob";
 if (name == Bob) {
-    consoloe.log(Name);
+    consoloe.log(Name); 
 }
 Error
 
