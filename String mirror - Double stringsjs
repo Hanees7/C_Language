@@ -1,0 +1,40 @@
+Write a program in the IDE which does the following
+
+Accepts the count of test cases - 
+𝑡
+t - in the 1st line
+First line of each test case consists of a string 
+𝑆
+S
+You need to perform the following operation
+Create a variable 
+𝑋
+X which contains the string 
+𝑆
+S concatenated with the string 
+𝑆
+S
+Output 
+𝑋
+X for each test case
+Sample 1:
+Input
+Output
+3
+ab
+bc
+cd
+abab
+bcbc
+cdcd
+OUTPUT:
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', function(input) {
+    const strings = input.trim().split('\n');
+    const testCases = parseInt(strings[0], 10);
+    for(let i = 1; i <= testCases; i++){
+        const S = strings[i];
+        const X = S + S;
+        console.log(X);
+    }
+});
