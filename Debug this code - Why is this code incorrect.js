@@ -6,7 +6,7 @@ You are given a program which does the following
 Accepts the count of test cases - 
 𝑡
 t - in the 1st line
-The only line of each test case consists of an integer 
+The only line of each test case consists of an integer  
 𝑁
 N
 For each test case, output to the console the value that is double the integer 
